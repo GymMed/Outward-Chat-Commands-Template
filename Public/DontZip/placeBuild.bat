@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: Source paths
-set "sourceDll=C:\Users\pc\source\repos\OutwardBasicChatCommands\Release\OutwardBasicChatCommands.dll"
+set "sourceDll=C:\Users\pc\source\repos\OutwardChatCommandsTemplate\Release\OutwardChatCommandsTemplate.dll"
 
 :: Profiles array (quoted entries for readability)
 set profiles="Test" "Development"
@@ -13,7 +13,7 @@ set "baseProfilePath=C:\Users\pc\AppData\Roaming\r2modmanPlus-local\OutwardDe\pr
 :: --- Copy DLL into each profile ---
 if exist "%sourceDll%" (
     for %%p in (%profiles%) do (
-        set "destinationDll=%baseProfilePath%\%%~p\BepInEx\plugins\gymmed-OutwardBasicChatCommands"
+        set "destinationDll=%baseProfilePath%\%%~p\BepInEx\plugins\gymmed-OutwardChatCommandsTemplate"
         echo Copying "%sourceDll%" to "!destinationDll!"
         if not exist "!destinationDll!" mkdir "!destinationDll!"
         copy /Y "%sourceDll%" "!destinationDll!"
