@@ -1,0 +1,12 @@
+{
+	"name": "Chat_Commands_Template",
+	"version_number": "0.0.1",
+	"website_url": "https://github.com/GymMed/Outward-Chat-Commands-Template",
+	"description": "Template for creating outward chat commands with mods communicator",
+	"dependencies": [
+		"GymMed-Chat_Commands_Manager-0.0.2",
+		"GymMed-Mods_Communicator-1.2.0",
+		"sinai-dev-SideLoader-3.8.4",
+		"BepInEx-BepInExPack_Outward-5.4.19"
+	]
+}
