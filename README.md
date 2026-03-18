@@ -19,7 +19,7 @@
 		<img src="https://img.shields.io/badge/Mods_Communicator-v1.2.0-9966ff" alt="Mods Communicator Version">
 	</a>
 	<a href="https://github.com/GymMed/Outward-Chat-Commands-Manager/releases/latest">
-		<img src="https://img.shields.io/badge/Chat_Commands_Manager-v0.0.2-33ccff" alt="Mods Communicator Version">
+		<img src="https://img.shields.io/badge/Chat_Commands_Manager-v0.1.0-33ccff" alt="Mods Communicator Version">
 	</a>
 </div>
 
